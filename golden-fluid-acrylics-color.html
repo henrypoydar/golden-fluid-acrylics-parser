@@ -1,0 +1,774 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Golden Artist Colors, Inc.</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=9;IE=10; IE=8; IE=7" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Hansa Yellow Opaque" />
+        <meta name="keywords" content="Hansa Yellow Opaque">
+
+  <!-- Added by Chris Acly 4-14-15, requested by CF -->
+  <meta name="p:domain_verify" content="f87ff6cac022042dbf0051a944246620"/>
+
+        <link rel="shortcut icon" href="http://www.goldenpaints.com//theme/default/assets/images/favicon.ico" />
+
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://www.goldenpaints.com/theme/admin/css/plugins.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                <link href="http://www.goldenpaints.com/theme/default/assets/template.css?v=2.7" rel="stylesheet" media="screen">
+        <link href="http://www.goldenpaints.com/theme/default/assets/sets.css?v=2.7" rel="stylesheet" media="screen">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="http://www.goldenpaints.com/js/custom/html5shiv.js"></script>
+          <script src="http://www.goldenpaints.com/js/custom/respond.min.js"></script>
+        <![endif]-->
+
+                        <link href="http://www.goldenpaints.com//theme/default/assets/pages.css?v=2.7" rel="stylesheet" type="text/css" >
+                                <link href="http://www.goldenpaints.com//theme/default/assets/products.css?v=2.7" rel="stylesheet" type="text/css" >
+                                <link href="http://www.goldenpaints.com//theme/default/assets/fancybox/jquery.fancybox.css?v=2.7" rel="stylesheet" type="text/css" >
+
+    </head>
+    <body><div class="row navbar-fixed-top">
+    <div class="container_top">
+        <div class="top-main-menu-container">
+            <div class="top-menu-block1 top-menu-block">
+                <a href="http://www.goldenpaints.com/"><img class="logo-img" src="http://www.goldenpaints.com/theme/default/assets/images/logo_main.png" class="img-responsive" alt="Golden Artist"/></a>
+            </div>
+
+            <div class="pull-right">
+                                <div style="float: right; color: white; clear: both;">
+                    <ul class="top-menus-list">
+                                                    <li class="inactive">
+
+                                <a href="http://www.goldenpaints.com/about-us" class="inactive">About Us</a>
+                                                               </li>
+                                                    <li class="inactive">
+
+                                <a href="http://www.goldenpaints.com/products" class="inactive">Products</a>
+                                                               </li>
+                                                    <li class="inactive">
+
+                                <a href="http://www.goldenpaints.com/resourceindex" class="inactive">Resources</a>
+                                                               </li>
+                                                    <li class="inactive">
+
+                                <a href="http://www.goldenpaints.com/community" class="inactive">Community</a>
+                                                               </li>
+                                                    <li class="inactive">
+
+                                <a href="http://www.goldenpaints.com/contact_us" class="inactive">Contact</a>
+                                                               </li>
+                                                <li>
+                            <a class="search_btn no-underline pointer"><i class="fa fa-search"></i></a>
+                            <a class="close_btn no-underline pointer">X</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="left-menu-nav active">
+    <div data = 'eng' id="current_language"></div>
+    <div class="hide-show-left-menu">
+         <div class="arrow" style="width:40px; height: 1px; padding:0px; line-height: 0px; -webkit-margin-before: 4px;
+                 -webkit-margin-after: 0em;"><i class="fa fa-long-arrow-left"></i></div>
+
+        <i class="fa fa-align-justify" style="clear:left;"></i>
+
+    </div>
+    <ul class="left-menu-nav-list">
+                    <li>
+                <div class="wrapper" id="dwrapper">
+                    <select id="dlist" class="language_changer">
+                                                        <option class="language_icon" value="English" selected>English</option>
+                                                                                                    <option class="language_icon" value="Spanish" >Spanish</option>
+                                                                                                    <option class="language_icon" value="French" >French</option>
+                                                                                                    <option class="language_icon" value="German" >German</option>
+                                                                                        </select>
+                </div>
+            </li>
+                <li class="on_hover_title">
+            <a href="http://www.goldenpaints.com/mixer" title="Virtual Paint Mixer" data-placement="right" data-toggle="tooltip">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/left_nav_bar/icon_1.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="http://www.goldenpaints.com/explorer" title="Interactive Color Chart" data-placement="right" data-toggle="tooltip">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/color-chart.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="http://www.goldenpaints.com/store_locator" title="Store Locator" data-placement="right" data-toggle="tooltip">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/locator.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="http://www.goldenpaints.com/all_event" title="Events Calender" data-placement="right" data-toggle="tooltip">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/evnt_calender_icon.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="http://www.goldenpaints.com/videos" title="Videos" data-placement="right" data-toggle="tooltip">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/left_nav_bar/icon_3.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="#" title="Williamsburg Oils" data-placement="right" data-toggle="tooltip" id="wb_site">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/left_nav_bar/icon_4.png" class='img-responsive'/>
+            </a>
+        </li>
+        <li class="on_hover_title">
+            <a href="#" title="QOR" data-placement="right" data-toggle="tooltip" id="qor_site">
+                <img src="http://www.goldenpaints.com/theme/default/assets/images/left_nav_bar/icon_5.png" class='img-responsive'/>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="row image_tile_container main_body">
+    <div class="container">
+        <div class="main_container">
+            <div class="left_menu">
+                <ul><li class="sub_menu_link active"><a href="#" class="open_menu">Colors</a><ul><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/heavy-body"><img src="http://www.goldenpaints.com/admin/image/id/1249" class="product_icon"/>Heavy Body</a></li><li class="menu_link active"><a href="http://www.goldenpaints.com/products/colors/fluid"><img src="http://www.goldenpaints.com/admin/image/id/1250" class="product_icon"/>Fluid</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/open"><img src="http://www.goldenpaints.com/admin/image/id/1251" class="product_icon"/>OPEN</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/high-flow"><img src="http://www.goldenpaints.com/admin/image/id/1252" class="product_icon"/>High Flow</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/interference-colors">Interference Colors</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/iridescent-colors">Iridescent Colors</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/matte-colors">Matte Colors</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/colors/fluorescent---phosphorescent-colors">Fluorescent & Phosphorescent Colors</a></li></ul></li><li class="sub_menu_link"><a href="#" class="open_menu">Varnish & Top Coats</a><ul><li class="menu_link"><a href="http://www.goldenpaints.com/products/varnish-top-coat/msa-archival-spray-varnish">MSA Archival Spray Varnish</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/varnish-top-coat/msa-varnish">MSA Varnish</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/varnish-top-coat/polymer-varnish">Polymer Varnish</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/varnish-top-coat/gel-topcoats-with-uvls">Gel Topcoats with UVLS</a></li></ul></li><li class="sub_menu_link"><a href="#" class="open_menu">Gel, Paste & Mediums</a><ul><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/gel">Gel</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/molding-paste">Molding Paste</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/gel-with-aggregates">Gel with Aggregates</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/effects-paste">Effects Paste</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/pourable-gel">Pourable Gel</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/slow-drying-medium">Slow-Drying Medium</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/special-purpose-mediums">Special Purpose Mediums</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/fluid-mediums">Fluid Mediums</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/medium-gels-pastes/additives">Additives</a></li></ul></li><li class="sub_menu_link"><a href="#" class="open_menu">Gesso & Ground</a><ul><li class="menu_link"><a href="http://www.goldenpaints.com/products/gesso-ground/gesso">Gesso</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/gesso-ground/grounds-for-painting---drawing">Grounds for Painting & Drawing</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/gesso-ground/grounds-for-digital-imaging">Grounds for Digital Imaging</a></li></ul></li><li class="sub_menu_link"><a href="#" class="open_menu">Custom Products</a><ul><li class="menu_link"><a href="http://www.goldenpaints.com/products/custom-products/high-load-acrylic-colors">High Load Acrylic Colors</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/custom-products/mineral-spirit-acrylic-colors">Mineral Spirit Acrylic Colors</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/custom-products/custom-varnish">Custom Varnish</a></li><li class="menu_link"><a href="http://www.goldenpaints.com/products/custom-products/custom-mediums---additives">Custom Mediums & Additives</a></li></ul></li></ul>            </div><div class="product-main-container">
+    <div class="col-xs-9">
+                    <h3 class="product-category" style="float:left">Hansa Yellow Opaque</h3>
+            <h3 id="category_name"> ( Fluid ) </h3>
+            </div>
+
+    <div class="col-xs-3">
+                    <div class="btn-group sort-category-btn-group custom_drop_down">
+                <button type="button" class="btn btn-default dropdown-toggle dropdown-btn sort-category-dropdown" data-toggle="dropdown">
+                    Hansa Yellow Opaque <span class="caret_custom"> a</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                                            <li><a href="http://www.goldenpaints.com/demo/technicalinfo_abmedium">Airbrush Medium (use With Fluid Colors)</a></li>
+                                    </ul>
+            </div>
+            </div>
+    <div class='clear'></div>
+            <div>
+                            <div class="col-xs-2 color_shade">
+                    <img src="http://www.goldenpaints.com/admin/image/get/cs_scan_1432849878.jpg" alt="cs_scan_1432849878.jpg" class="img-responsive"/>
+                </div>
+                        <div class="col-xs-9">
+                <div class="col-xs-7">
+                                        <div class="product_property_div">
+                            <span class="product_prop_title">Pigment Classification :</span>
+                            Organic                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Color Index Name :</span>
+                            PY 74                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Color Index Number :</span>
+                            11741                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Chemical Description :</span>
+                            Arylide Yellow 5GX                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Opacity/Transparency :</span>
+                            5                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Lightfastness Rating :</span>
+                            I                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Permanency :</span>
+                            Excellent                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Munsell Notation Listing :</span>
+                            <br>Hue 5.0 Y<br />
+Value 8<br />
+Chroma 16                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Gloss Average :</span>
+                            78.28                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Viscosity Range :</span>
+                            400-1000 CPS                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">CIE L*a*b* Values :</span>
+                            L*85.41 a*11.09 b*93.99                        </div>
+                                                <div class="product_property_div">
+                            <span class="product_prop_title">Tint Strength :</span>
+                            92.91                        </div>
+                                                <a href='#extra_information' class="fancybox">
+                            <i class="fa fa-info-circle fa-2x" style="color: #ccc;"></i>
+                        </a>
+                    </div>
+
+                <div class="col-xs-4">
+                    <img src="http://www.goldenpaints.com/admin/image/get/image_1400018184.jpg" alt="image_1400018184.jpg" class="img-responsive"/>
+                </div>
+                <div class="clear">&nbsp;</div>
+                <div id="also_available_in" class="col-xs-5">
+                                    <div>
+                        <label class="product_title">Also Available in</label>
+                    </div>
+                    <div class="related_products_div" >
+                                                    <div class="also_available_in_item">
+                                                                <div class="text-center img">
+                                    <a href="http://www.goldenpaints.com/products/colors/open/hansa-yellow-opaque" style="display: inline-block">
+                                        <img src ="http://www.goldenpaints.com//theme/default/assets/images/open.png" class="img-responsive"/>
+                                    </a>
+                                </div>
+                                <div class="text-center also_available_in_item_label">
+                                    <label><a href="http://www.goldenpaints.com/products/colors/open/hansa-yellow-opaque" style="text-decoration:none;">OPEN</a></label>
+                                </div>
+                                                            </div>
+                                                    <div class="also_available_in_item">
+                                                                <div class="text-center img">
+                                    <img src ="http://www.goldenpaints.com//theme/default/assets/images/high_flow.png" class="img-responsive" style="opacity: 0.5;margin: auto;"/>
+                                </div>
+                                <div class="text-center also_available_in_item_label">
+                                    <label style="color:#ccc">High Flow</label>
+                                </div>
+                                                            </div>
+                                                    <div class="also_available_in_item">
+                                                                <div class="text-center img">
+                                    <a href="http://www.goldenpaints.com/products/colors/heavy-body/hansa-yellow-opaque" style="display: inline-block">
+                                        <img src ="http://www.goldenpaints.com//theme/default/assets/images/heavy_body.png" class="img-responsive"/>
+                                    </a>
+                                </div>
+                                <div class="text-center also_available_in_item_label">
+                                    <label><a href="http://www.goldenpaints.com/products/colors/heavy-body/hansa-yellow-opaque" style="text-decoration:none;">Heavy Body</a></label>
+                                </div>
+                                                            </div>
+                                                <div class='clear'></div>
+                    </div>
+
+                                    </div>
+                <div class="col-xs-6 product_bulb">
+                    As the name suggests, this Hansa Yellow offers greater coverage and opacity. It is a synthetic single pigment paint with good opacity and lightfastness. (Series 4)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+                </div>
+                <div class="clear">&nbsp;</div>
+            </div>
+
+            <div class='clear'></div>
+            <div style="float: left;margin-right: 20px;padding-left: 15px;">
+                                    <div class="tints_main_div">
+                        <div id="tints_title">
+                            <label class="product_title">Tints</label>
+                        </div>
+                        <div class="tint" id="tint_0">
+                            <div class="tint-label">
+                                <label>10:1</label>
+                            </div>
+                            <div class="tint_circle" style="background-color: #ffdb16">
+
+                            </div>
+                        </div>
+                        <div class="tint" id="tint_1">
+                            <div class="tint-label">
+                                <label>3:1</label>
+                            </div>
+                            <div class="tint_circle" style="background-color: #ffe13b">
+
+                            </div>
+                        </div>
+                        <div class="tint" id="tint_2">
+                            <div class="tint-label">
+                                <label >1:1</label>
+                            </div>
+                            <div class="tint_circle" style="background-color: #ffe75a">
+
+                            </div>
+                        </div>
+                        <div class="tint" id="tint_3">
+                            <div class="tint-label">
+                                <label >1:3</label>
+                            </div>
+                            <div class="tint_circle" style="background-color: #fff08f">
+
+                            </div>
+                        </div>
+                        <div class="tint" id="tint_4">
+                            <div class="tint-label">
+                                <label >1:10</label>
+                            </div>
+                            <div class="tint_circle" style="background-color: #fff6b3">
+
+                            </div>
+                        </div>
+                        <div class='clear'></div>
+                    </div>
+                            </div>
+
+            <div style="float: left;margin-right: 20px;">
+                            <div class="tints_main_div">
+                <div id="tints_title">
+                    <label class="product_title">Glazes</label>
+                </div>
+                <div class="tint" id="tint_0">
+                    <div class="tint-label">
+                        <label>1:1</label>
+                    </div>
+                    <div class="tint_circle" style="background-color: #ffd900">
+                        <div class="black_tint" style="opacity: 0.3">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="tint" id="tint_1">
+                    <div class="tint-label">
+                        <label>1:3</label>
+                    </div>
+                    <div class="tint_circle" style="background-color: #ffd700">
+                        <div class="black_tint" style="opacity: 0.5">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="tint" id="tint_2">
+                    <div class="tint-label">
+                        <label >1:10</label>
+                    </div>
+                    <div class="tint_circle" style="background-color: #ffe000">
+                        <div class="black_tint" style="opacity: 0.7">&nbsp;</div>
+                    </div>
+                </div>
+                <div class="tint" id="tint_3">
+                    <div class="tint-label">
+                        <label >1:50</label>
+                    </div>
+                    <div class="tint_circle" style="background-color: #ffe000">
+                        <div class="black_tint">&nbsp;</div>
+                    </div>
+                </div>
+                <div class='clear'></div>
+            </div>
+                    </div>
+            <div class='clear'></div>
+        </div>
+                    <div class="col-md-12">
+        <div class="spectrum">
+                        <div>
+                <label class="product_title">Find Color</label>
+            </div>
+                        <ul>
+                                    <li class="" style="background-color:#FCDC00">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/hansa-yellow-light" title="Hansa Yellow Light"></a>
+                    </li>
+                                    <li class="" style="background-color:#FFCD00">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/hansa-yellow-medium" title="Hansa Yellow Medium"></a>
+                    </li>
+                                    <li class="" style="background-color:#FFB400">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/diarylide-yellow" title="Diarylide Yellow"></a>
+                    </li>
+                                    <li class="" style="background-color:#FFD115">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/primary-yellow" title="Primary Yellow"></a>
+                    </li>
+                                    <li class="" style="background-color:#FDC413">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cadmium-yellow-medium-hue" title="Cadmium Yellow Medium Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#AF791B">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/nickel-azo-yellow" title="Nickel Azo Yellow"></a>
+                    </li>
+                                    <li class="" style="background-color:#DC7600">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/indian-yellow-hue" title="Indian Yellow Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#A95B15">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/transparent-yellow-iron-oxide" title="Transparent Yellow Iron Oxide"></a>
+                    </li>
+                                    <li class="" style="background-color:#84301E">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/transparent-red-iron-oxide" title="Transparent Red Iron Oxide"></a>
+                    </li>
+                                    <li class="" style="background-color:#893F26">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone---nickel-azo-gold" title="Quinacridone / Nickel Azo Gold"></a>
+                    </li>
+                                    <li class="" style="background-color:#411617">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone-burnt-orange" title="Quinacridone Burnt Orange"></a>
+                    </li>
+                                    <li class="" style="background-color:#D64409">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/vat-orange" title="Vat Orange"></a>
+                    </li>
+                                    <li class="" style="background-color:#F3491E">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/pyrrole-orange" title="Pyrrole Orange"></a>
+                    </li>
+                                    <li class="" style="background-color:#D14231">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/transparent-pyrrole-orange" title="Transparent Pyrrole Orange"></a>
+                    </li>
+                                    <li class="" style="background-color:#D13E37">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/pyrrole-red-light" title="Pyrrole Red Light"></a>
+                    </li>
+                                    <li class="" style="background-color:#C23739">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/pyrrole-red" title="Pyrrole Red"></a>
+                    </li>
+                                    <li class="" style="background-color:#BE1D00">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/naphthol-red-light" title="Naphthol Red Light"></a>
+                    </li>
+                                    <li class="" style="background-color:#A32832">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/naphthol-red-medium" title="Naphthol Red Medium"></a>
+                    </li>
+                                    <li class="" style="background-color:#ba050e">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone-red" title="Quinacridone Red"></a>
+                    </li>
+                                    <li class="" style="background-color:#662631">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/alizarin-crimson-hue" title="Alizarin Crimson Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#6E1E31">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone-crimson" title="Quinacridone Crimson"></a>
+                    </li>
+                                    <li class="" style="background-color:#870412">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone-magenta" title="Quinacridone Magenta"></a>
+                    </li>
+                                    <li class="" style="background-color:#87001D">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/quinacridone-violet" title="Quinacridone Violet"></a>
+                    </li>
+                                    <li class="" style="background-color:#BA1A22">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/primary-magenta" title="Primary Magenta"></a>
+                    </li>
+                                    <li class="" style="background-color:#C04340">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cadmium-red-medium-hue" title="Cadmium Red Medium Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#4B4069">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/ultramarine-violet" title="Ultramarine Violet"></a>
+                    </li>
+                                    <li class="" style="background-color:#442146">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/permanent-violet-dark" title="Permanent Violet Dark"></a>
+                    </li>
+                                    <li class="" style="background-color:#272142">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/dioxazine-purple" title="Dioxazine Purple"></a>
+                    </li>
+                                    <li class="" style="background-color:#231D3C">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/anthraquinone-blue" title="Anthraquinone Blue"></a>
+                    </li>
+                                    <li class="" style="background-color:#251947">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/prussian-blue-hue" title="Prussian Blue Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#1C1B7C">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/ultramarine-blue" title="Ultramarine Blue"></a>
+                    </li>
+                                    <li class="" style="background-color:#1C35B7">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cobalt-blue" title="Cobalt Blue"></a>
+                    </li>
+                                    <li class="" style="background-color:#0058AE">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cerulean-blue--chromium" title="Cerulean Blue, Chromium"></a>
+                    </li>
+                                    <li class="" style="background-color:#00548D">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cerulean-blue-deep" title="Cerulean Blue Deep"></a>
+                    </li>
+                                    <li class="" style="background-color:#0160A2">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/manganese-blue-hue" title="Manganese Blue Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#002F7C">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/phthalo-blue--red-shade" title="Phthalo Blue (Red Shade)"></a>
+                    </li>
+                                    <li class="" style="background-color:#000050">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/phthalo-blue--green-shade" title="Phthalo Blue (Green Shade)"></a>
+                    </li>
+                                    <li class="" style="background-color:#004EAC">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/primary-cyan" title="Primary Cyan"></a>
+                    </li>
+                                    <li class="" style="background-color:#00BCC1">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/teal" title="Teal"></a>
+                    </li>
+                                    <li class="" style="background-color:#006677">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/cobalt-turquois" title="Cobalt Turquois"></a>
+                    </li>
+                                    <li class="" style="background-color:#002239">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/turquois--phthalo" title="Turquois (Phthalo)"></a>
+                    </li>
+                                    <li class="" style="background-color:#002932">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/phthalo-green--blue-shade" title="Phthalo Green (Blue Shade)"></a>
+                    </li>
+                                    <li class="" style="background-color:#004D48">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/viridian-green-hue" title="Viridian Green Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#00382F">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/phthalo-green--yellow-shade" title="Phthalo Green (Yellow Shade)"></a>
+                    </li>
+                                    <li class="" style="background-color:#0D2100">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/jenkins-green" title="Jenkins Green"></a>
+                    </li>
+                                    <li class="" style="background-color:#242D14">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/sap-green-hue" title="Sap Green Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#007740">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/permanent-green-light" title="Permanent Green Light"></a>
+                    </li>
+                                    <li class="" style="background-color:#3C6B3B">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/chromium-oxide-green" title="Chromium Oxide Green"></a>
+                    </li>
+                                    <li class="" style="background-color:#667400">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/green-gold" title="Green Gold"></a>
+                    </li>
+                                    <li class="" style="background-color:#DFC07B">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/naples-yellow-hue" title="Naples Yellow Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#C5A045">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/yellow-oxide" title="Yellow Oxide"></a>
+                    </li>
+                                    <li class="" style="background-color:#B78B38">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/yellow-ochre" title="Yellow Ochre"></a>
+                    </li>
+                                    <li class="" style="background-color:#A77846">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/raw-sienna" title="Raw Sienna"></a>
+                    </li>
+                                    <li class="" style="background-color:#7A4029">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/burnt-sienna" title="Burnt Sienna"></a>
+                    </li>
+                                    <li class="" style="background-color:#90463A">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/red-oxide" title="Red Oxide"></a>
+                    </li>
+                                    <li class="" style="background-color:#6B3F3E">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/violet-oxide" title="Violet Oxide"></a>
+                    </li>
+                                    <li class="" style="background-color:#624B44">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/burnt-umber-light" title="Burnt Umber Light"></a>
+                    </li>
+                                    <li class="" style="background-color:#4A433E">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/raw-umber" title="Raw Umber"></a>
+                    </li>
+                                    <li class="" style="background-color:#3B3330">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/van-dyke-brown-hue" title="Van Dyke Brown Hue"></a>
+                    </li>
+                                    <li class="" style="background-color:#2C262F">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/paynes-gray" title="Paynes Gray"></a>
+                    </li>
+                                    <li class="" style="background-color:#2C2C2b">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/bone-black" title="Bone Black"></a>
+                    </li>
+                                    <li class="" style="background-color:#171512">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/carbon-black" title="Carbon Black"></a>
+                    </li>
+                                    <li class="" style="background-color:#E0D4BA">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/titan-buff" title="Titan Buff"></a>
+                    </li>
+                                    <li class="" style="background-color:#FEFEFE">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/zinc-white" title="Zinc White"></a>
+                    </li>
+                                    <li class="" style="background-color:#FEFEFE">
+                       <a href="http://www.goldenpaints.com/products/colors/fluid/titanium-white" title="Titanium White"></a>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+            <div class='clear'></div>
+                <div class="col-xs-12" style="padding-left: 15px;margin-top: 40px;margin-bottom: 10px;">
+
+                <label class="product_title" style="float:left;">Related Colors</label><a href="#releated_information" class="fancybox" style="display: inline-block;margin-left: 7px;margin-top: -3px;float: left;"><i class="fa fa-question-circle fa-2x" style="color: #ccc;"></i></a>
+
+            </div>
+            <div class='clear'></div>
+            <div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+                <ul class="list-inline ui-tabs">
+                                                <li class="FL"><a href="#tabs-1">Fluid &nbsp; &nbsp; <span class="fa fa-angle-down" style="font-weight:normal; font-size: 12px;"></span></a></li>
+                                                        <li class="HB"><a href="#tabs-2">Heavy Body &nbsp; &nbsp; <span class="fa fa-angle-down" style="font-weight:normal; font-size: 12px;"></span></a></li>
+                                                        <li class="OPEN"><a href="#tabs-3">OPEN &nbsp; &nbsp; <span class="fa fa-angle-down" style="font-weight:normal; font-size: 12px;"></span></a></li>
+                                                        <li class="HF"><a href="#tabs-4">High Flow &nbsp; &nbsp; <span class="fa fa-angle-down" style="font-weight:normal; font-size: 12px;"></span></a></li>
+                                            </ul>
+
+                <div class=" tab-content ui-tabs-panel ui-widget-content ui-corner-bottom" >
+                                                <div class="1" id="tabs-1">
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/fluid/primary-yellow' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1432850018.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Primary Yellow<br/>#2422</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/fluid/cadmium-yellow-medium-hue' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1432850096.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Cadmium Yellow Medium Hue<br/>#2428</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/fluid/hansa-yellow-medium' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1432849921.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Hansa Yellow Medium<br/>#2190</div>
+                                    </div>
+                                                            </div>
+                                                        <div class="2" id="tabs-2">
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/heavy-body/primary-yellow' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1430750127.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Primary Yellow<br/>#1530</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/heavy-body/cadmium-yellow-medium-hue' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1430750479.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Cadmium Yellow Medium Hue<br/>#1554</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/heavy-body/c-p--cadmium-yellow-medium' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1430750401.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">C.P. Cadmium Yellow Medium<br/>#1130</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/heavy-body/hansa-yellow-medium' >
+                                                                                            <img src='http://www.goldenpaints.com/admin/image/get/cs_scan_1430751007.jpg' class='color' />
+                                                                                        </a>
+                                        <div class="color_title">Hansa Yellow Medium<br/>#1190</div>
+                                    </div>
+                                                            </div>
+                                                        <div class="3" id="tabs-3">
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/open/c-p--cadmium-yellow-medium' >
+                                                                                                <div class='color' style="background-color: #FFC613"></div>
+                                                                                            </a>
+                                        <div class="color_title">C.P. Cadmium Yellow Medium<br/>#7130</div>
+                                    </div>
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/open/hansa-yellow-medium' >
+                                                                                                <div class='color' style="background-color: #FFCD00"></div>
+                                                                                            </a>
+                                        <div class="color_title">Hansa Yellow Medium<br/>#7190</div>
+                                    </div>
+                                                            </div>
+                                                        <div class="4" id="tabs-4">
+
+                                                                        <div class='color_swatch_child' >
+                                        <a href='http://www.goldenpaints.com/products/colors/high-flow/hansa-yellow-medium' >
+                                                                                                <div class='color' style="background-color: #FFCD00"></div>
+                                                                                            </a>
+                                        <div class="color_title">Hansa Yellow Medium<br/>#8530</div>
+                                    </div>
+                                                            </div>
+                                                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="clear">&nbsp;</div>
+            </div>
+                <div class="hidden">
+        <div id="extra_information">
+            The <b>Lightfastness Ratings</b> included in this chart are provided by the American Society for Testing and Materials (ASTM) in the standard for "Artists' Acrylic Emulsion Paints". (ASTM D 5098, Annual Book of Standards, Volume 6.02). Colors with a Lightfastness Rating of I are considered Excellent ("Exc.") and those with a Lightfastness Rating of II are Very Good ("V.G."). Where Lightfastness Ratings have not been obtained according to ASTM test protocol, "NA" is indicated in the table. In these cases, data from pigment manufacturers and our own test facilities have been used and an appropriate description assigned under Permanency.
+            <br/><br/>
+            For <b>Opacity/Transparency</b>, we have determined that an eight-point scale is most appropriate for describing the properties of our colors. We have assigned each color in the chart a number from 1 (most opaque) to 8 (most transparent) to indicate the relative opacity/transparency of that color.
+            <br/><br/>
+            The <b>C.I. (Colour Index) Name</b> is an internationally recognized code assigned to a particular "colorant." The C.I. Name consists of the category (type of dye or pigment), general hue and serial number assigned, based on its chemical constitution. For example, PB 60, Anthraquinone Blue, indicates a specific Pigment Blue. The C.I. Number is a five-digit reference number assigned in the Colour Index based on the chemical structure of a colorant, regardless of usage class.
+        </div>
+        <div id="releated_information">
+            Neighboring, similar, or alternative colors.
+        </div>
+    </div>
+
+</div>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="clear">&nbsp;</div>
+<div>
+    <div class="footer_container">
+        <div class="col-xs-6">
+        </div>
+        <div class="col-xs-6 text-right">
+            <div class="">
+                &copy; Golden Artist Colors, Inc.&nbsp; <a href="http://www.goldenpaints.com/esop" class="white_anchor">An Employee Owned Company</a>
+            </div>
+            <div class="social_icons text-right">
+                <ul class="social_icons_ul">
+                    <li class="fa_icon"><a href="#" target="_blank"><i class="fa fa-rss-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://www.youtube.com/user/GoldenPaints" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://vimeo.com/user5193465" target="_blank"><i class="fa fa-vimeo-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://plus.google.com/u/0/106257363438888619582/about" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://www.linkedin.com/company/golden-artist-colors" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="http://www.pinterest.com/goldenpaints/" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://twitter.com/GoldenAcrylics" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li class="fa_icon"><a href="https://www.facebook.com/pages/Golden-Artist-Colors/143033784064?ref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li class="follow_us_li"><span class="follow_us">Follow Us</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-10662663-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </div>
+</div>
+
+<div class="search_dialog" id="search_dialog" style="display:none;">
+    <div class="row">
+        <div class="container search-container">
+            <form class="navbar-form" role="search" action="http://www.goldenpaints.com/search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="term" id="srch-term">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-search" type="submit"><i class="fa fa-search"></i> Search</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://www.goldenpaints.com/js/custom/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="http://www.goldenpaints.com/js/admin/js/jquery.form.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.0.0.js"></script>
+
+<script type="text/javascript">
+    var base_url = 'http://www.goldenpaints.com/';
+</script>
+
+        <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/common.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/pace.min.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/jquery.scrollTo.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/pages.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/modernizr.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/jquery.dropList.1.0.0.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/bootbox.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/bootbox.min.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/fancybox/jquery.fancybox.pack.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/fancybox/helpers/jquery.fancybox-media.js?v=2.7"></script>
+                <script type="text/javascript" src="http://www.goldenpaints.com/js/custom/product_landing.js?v=2.7"></script>
+        </body>
+</html>

@@ -1,0 +1,396 @@
+#FCDC00,2180,Hansa Yellow Light
+#f4e745,2180,Hansa Yellow Light 10 to 1
+#f7ed58,2180,Hansa Yellow Light 3 to 1
+#f9f375,2180,Hansa Yellow Light 1 to 1
+#faf895,2180,Hansa Yellow Light 1 to 3
+#fafbb7,2180,Hansa Yellow Light 1 to 10
+#FFD500,2191,Hansa Yellow Opaque
+#ffdb16,2191,Hansa Yellow Opaque 10 to 1
+#ffe13b,2191,Hansa Yellow Opaque 3 to 1
+#ffe75a,2191,Hansa Yellow Opaque 1 to 1
+#fff08f,2191,Hansa Yellow Opaque 1 to 3
+#fff6b3,2191,Hansa Yellow Opaque 1 to 10
+#FFCD00,2190,Hansa Yellow Medium
+#f4c818,2190,Hansa Yellow Medium 10 to 1
+#f9d530,2190,Hansa Yellow Medium 3 to 1
+#fce04e,2190,Hansa Yellow Medium 1 to 1
+#feea72,2190,Hansa Yellow Medium 1 to 3
+#fef298,2190,Hansa Yellow Medium 1 to 10
+#FFB400,2147,Diarylide Yellow
+#faac24,2147,Diarylide Yellow 10 to 1
+#fcb230,2147,Diarylide Yellow 3 to 1
+#ffbc47,2147,Diarylide Yellow 1 to 1
+#ffc967,2147,Diarylide Yellow 1 to 3
+#ffd88e,2147,Diarylide Yellow 1 to 10
+#FFD115,2422,Primary Yellow
+#ffdd00,2422,Primary Yellow 10 to 1
+#ffe223,2422,Primary Yellow 3 to 1
+#ffeb63,2422,Primary Yellow 1 to 1
+#fff384,2422,Primary Yellow 1 to 3
+#fff39c,2422,Primary Yellow 1 to 10
+#FDC413,2428,Cadmium Yellow Medium Hue
+#ffcc14,2428,Cadmium Yellow Medium Hue 10 to 1
+#ffce14,2428,Cadmium Yellow Medium Hue 3 to 1
+#ffd94a,2428,Cadmium Yellow Medium Hue 1 to 1
+#ffe371,2428,Cadmium Yellow Medium Hue 1 to 3
+#fff4a1,2428,Cadmium Yellow Medium Hue 1 to 10
+#AF791B,2225,Nickel Azo Yellow
+#b39537,2225,Nickel Azo Yellow 10 to 1
+#d0ad2e,2225,Nickel Azo Yellow 3 to 1
+#e8c243,2225,Nickel Azo Yellow 1 to 1
+#fedc6d,2225,Nickel Azo Yellow 1 to 3
+#ffef97,2225,Nickel Azo Yellow 1 to 10
+#DC7600,2436,Indian Yellow Hue
+#d8852e,2436,Indian Yellow Hue 10 to 1
+#e2a140,2436,Indian Yellow Hue 3 to 1
+#f3b652,2436,Indian Yellow Hue 1 to 1
+#fcce77,2436,Indian Yellow Hue 1 to 3
+#fde09e,2436,Indian Yellow Hue 1 to 10
+#A95B15,2386,Transparent Yellow Iron Oxide
+#b39537,2386,Transparent Yellow Iron Oxide 10 to 1
+#d0ad2e,2386,Transparent Yellow Iron Oxide 3 to 1
+#e8c343,2386,Transparent Yellow Iron Oxide 1 to 1
+#fedc6d,2386,Transparent Yellow Iron Oxide 1 to 3
+#ffef97,2386,Transparent Yellow Iron Oxide 1 to 10
+#84301E,2385,Transparent Red Iron Oxide
+#a0531d,2385,Transparent Red Iron Oxide 10 to 1
+#a56943,2385,Transparent Red Iron Oxide 3 to 1
+#bd8460,2385,Transparent Red Iron Oxide 1 to 1
+#dea883,2385,Transparent Red Iron Oxide 1 to 3
+#facbab,2385,Transparent Red Iron Oxide 1 to 10
+#893F26,2301,Quinacridone / Nickel Azo Gold
+#a9613b,2301,Quinacridone / Nickel Azo Gold 10 to 1
+#c67d45,2301,Quinacridone / Nickel Azo Gold 3 to 1
+#dd9c5b,2301,Quinacridone / Nickel Azo Gold 1 to 1
+#ebb87b,2301,Quinacridone / Nickel Azo Gold 1 to 3
+#f5d29f,2301,Quinacridone / Nickel Azo Gold 1 to 10
+#411617,2280,Quinacridone Burnt Orange
+#502323,2280,Quinacridone Burnt Orange 10 to 1
+#613231,2280,Quinacridone Burnt Orange 3 to 1
+#764543,2280,Quinacridone Burnt Orange 1 to 1
+#a46667,2280,Quinacridone Burnt Orange 1 to 3
+#f1a59d,2280,Quinacridone Burnt Orange 1 to 10
+#D64409,2403,Vat Orange
+#e65219,2403,Vat Orange 10 to 1
+#ff682f,2403,Vat Orange 3 to 1
+#ff7339,2403,Vat Orange 1 to 1
+#ff8448,2403,Vat Orange 1 to 3
+#ffa062,2403,Vat Orange 1 to 10
+#F3491E,2276,Pyrrole Orange
+#de5c42,2276,Pyrrole Orange 10 to 1
+#e36854,2276,Pyrrole Orange 3 to 1
+#eb7f74,2276,Pyrrole Orange 1 to 1
+#f19c98,2276,Pyrrole Orange 1 to 3
+#f6baba,2276,Pyrrole Orange 1 to 10
+#D14231,2384,Transparent Pyrrole Orange
+#e75f34,2384,Transparent Pyrrole Orange 10 to 1
+#ff8454,2384,Transparent Pyrrole Orange 3 to 1
+#ffa477,2384,Transparent Pyrrole Orange 1 to 1
+#ffc09a,2384,Transparent Pyrrole Orange 1 to 3
+#ffd7b7,2384,Transparent Pyrrole Orange 1 to 10
+#D13E37,2279,Pyrrole Red Light
+#d1413d,2279,Pyrrole Red Light 10 to 1
+#da4f4e,2279,Pyrrole Red Light 3 to 1
+#e3666a,2279,Pyrrole Red Light 1 to 1
+#ee848a,2279,Pyrrole Red Light 1 to 3
+#f6a6ac,2279,Pyrrole Red Light 1 to 10
+#C23739,2277,Pyrrole Red
+#cd444a,2277,Pyrrole Red 10 to 1
+#cc4a56,2277,Pyrrole Red 3 to 1
+#cf5c6a,2277,Pyrrole Red 1 to 1
+#dc7c8e,2277,Pyrrole Red 1 to 3
+#e7a0b1,2277,Pyrrole Red 1 to 10
+#BE1D00,2210,Naphthol Red Light
+#cc403e,2210,Naphthol Red Light 10 to 1
+#d74b51,2210,Naphthol Red Light 3 to 1
+#e05968,2210,Naphthol Red Light 1 to 1
+#eb7289,2210,Naphthol Red Light 1 to 3
+#f395ac,2210,Naphthol Red Light 1 to 10
+#A32832,2220,Naphthol Red Medium
+#a43943,2220,Naphthol Red Medium 10 to 1
+#b54357,2220,Naphthol Red Medium 3 to 1
+#c75675,2220,Naphthol Red Medium 1 to 1
+#d97396,2220,Naphthol Red Medium 1 to 3
+#e79ab9,2220,Naphthol Red Medium 1 to 10
+#ba050e,2310,Quinacridone Red
+#953854,2310,Quinacridone Red 10 to 1
+#a6436c,2310,Quinacridone Red 3 to 1
+#ba5b8c,2310,Quinacridone Red 1 to 1
+#cb7bab,2310,Quinacridone Red 1 to 3
+#db9fc6,2310,Quinacridone Red 1 to 10
+#662631,2435,Alizarin Crimson Hue
+#73444d,2435,Alizarin Crimson Hue 10 to 1
+#935563,2435,Alizarin Crimson Hue 3 to 1
+#b06d81,2435,Alizarin Crimson Hue 1 to 1
+#b06d81,2435,Alizarin Crimson Hue 1 to 3
+#dcadbf,2435,Alizarin Crimson Hue 1 to 10
+#6E1E31,2290,Quinacridone Crimson
+#814b56,2290,Quinacridone Crimson 10 to 1
+#a45e71,2290,Quinacridone Crimson 3 to 1
+#bf768e,2290,Quinacridone Crimson 1 to 1
+#d695ae,2290,Quinacridone Crimson 1 to 3
+#e9b8ce,2290,Quinacridone Crimson 1 to 10
+#870412,2305,Quinacridone Magenta
+#833961,2305,Quinacridone Magenta 10 to 1
+#9b437f,2305,Quinacridone Magenta 3 to 1
+#b15b9e,2305,Quinacridone Magenta 1 to 1
+#c37aba,2305,Quinacridone Magenta 1 to 3
+#d59dd1,2305,Quinacridone Magenta 1 to 10
+#87001D,2330,Quinacridone Violet
+#7b3b56,2330,Quinacridone Violet 10 to 1
+#8c4b73,2330,Quinacridone Violet 3 to 1
+#9c6594,2330,Quinacridone Violet 1 to 1
+#ab83b1,2330,Quinacridone Violet 1 to 3
+#c1a8ce,2330,Quinacridone Violet 1 to 10
+#BA1A22,2421,Primary Magenta
+#bb203a,2421,Primary Magenta 10 to 1
+#d13848,2421,Primary Magenta 3 to 1
+#e04756,2421,Primary Magenta 1 to 1
+#f65b66,2421,Primary Magenta 1 to 3
+#ff868c,2421,Primary Magenta 1 to 10
+#C04340,2425,Cadmium Red Medium Hue
+#bb3f42,2425,Cadmium Red Medium Hue 10 to 1
+#c44651,2425,Cadmium Red Medium Hue 3 to 1
+#d75a70,2425,Cadmium Red Medium Hue 1 to 1
+#e47791,2425,Cadmium Red Medium Hue 1 to 3
+#ed98b0,2425,Cadmium Red Medium Hue 1 to 10
+#4B4069,2401,Ultramarine Violet
+#8174b1,2401,Ultramarine Violet 10 to 1
+#a699cf,2401,Ultramarine Violet 3 to 1
+#c3b9e4,2401,Ultramarine Violet 1 to 1
+#dcd4f3,2401,Ultramarine Violet 1 to 3
+#eee9fc,2401,Ultramarine Violet 1 to 10
+#442146,2253,Permanent Violet Dark
+#685078,2253,Permanent Violet Dark 10 to 1
+#826098,2253,Permanent Violet Dark 3 to 1
+#a079b7,2253,Permanent Violet Dark 1 to 1
+#ba96ce,2253,Permanent Violet Dark 1 to 3
+#d7bae7,2253,Permanent Violet Dark 1 to 10
+#272142,2150,Dioxazine Purple
+#574b60,2150,Dioxazine Purple 10 to 1
+#635078,2150,Dioxazine Purple 3 to 1
+#766199,2150,Dioxazine Purple 1 to 1
+#907cb7,2150,Dioxazine Purple 1 to 3
+#b2a0cf,2150,Dioxazine Purple 1 to 10
+#231D3C,2005,Anthraquinone Blue
+#353a66,2005,Anthraquinone Blue 10 to 1
+#4c5784,2005,Anthraquinone Blue 3 to 1
+#576a96,2005,Anthraquinone Blue 1 to 1
+#7da0d1,2005,Anthraquinone Blue 1 to 3
+#a2bcef,2005,Anthraquinone Blue 1 to 10
+#251947,2439,Prussian Blue Hue
+#334572,2439,Prussian Blue Hue 10 to 1
+#264e82,2439,Prussian Blue Hue 3 to 1
+#286eab,2439,Prussian Blue Hue 1 to 1
+#5d94d0,2439,Prussian Blue Hue 1 to 3
+#87b5e5,2439,Prussian Blue Hue 1 to 10
+#1C1B7C,2400,Ultramarine Blue
+#2b48c2,2400,Ultramarine Blue 10 to 1
+#4264d8,2400,Ultramarine Blue 3 to 1
+#6b86f8,2400,Ultramarine Blue 1 to 1
+#becdff,2400,Ultramarine Blue 1 to 3
+#cddcff,2400,Ultramarine Blue 1 to 10
+#1C35B7,2140,Cobalt Blue
+#346be3,2140,Cobalt Blue 10 to 1
+#5988ee,2140,Cobalt Blue 3 to 1
+#85a3f9,2140,Cobalt Blue 1 to 1
+#adbeff,2140,Cobalt Blue 1 to 3
+#d0e4ff,2140,Cobalt Blue 1 to 10
+#0058AE,2050,"Cerulean Blue, Chromium"
+#257ed7,2050,"Cerulean Blue, Chromium 10 to 1"
+#2b95ee,2050,"Cerulean Blue, Chromium 3 to 1"
+#76aef3,2050,"Cerulean Blue, Chromium 1 to 1"
+#adcaff,2050,"Cerulean Blue, Chromium 1 to 3"
+#cde0ff,2050,"Cerulean Blue, Chromium 1 to 10"
+#00548D,2051,Cerulean Blue Deep
+#0070a7,2051,Cerulean Blue Deep 10 to 1
+#3b93c5,2051,Cerulean Blue Deep 3 to 1
+#70b0d3,2051,Cerulean Blue Deep 1 to 1
+#9ecde9,2051,Cerulean Blue Deep 1 to 3
+#bedfff,2051,Cerulean Blue Deep 1 to 10
+#0160A2,2437,Manganese Blue Hue
+#3481b1,2437,Manganese Blue Hue 10 to 1
+#4d9cc9,2437,Manganese Blue Hue 3 to 1
+#6eb5db,2437,Manganese Blue Hue 1 to 1
+#91cae8,2437,Manganese Blue Hue 1 to 3
+#b2dcf0,2437,Manganese Blue Hue 1 to 10
+#002F7C,2260,Phthalo Blue (Red Shade)
+#00489c,2260,Phthalo Blue (Red Shade) 10 to 1
+#0067cc,2260,Phthalo Blue (Red Shade) 3 to 1
+#0083e7,2260,Phthalo Blue (Red Shade) 1 to 1
+#4ba8ff,2260,Phthalo Blue (Red Shade) 1 to 3
+#88c9ff,2260,Phthalo Blue (Red Shade) 1 to 10
+#000050,2255,Phthalo Blue (Green Shade)
+#000260,2255,Phthalo Blue (Green Shade) 10 to 1
+#000280,2255,Phthalo Blue (Green Shade) 3 to 1
+#000290,2255,Phthalo Blue (Green Shade) 1 to 1
+#004feb,2255,Phthalo Blue (Green Shade) 1 to 3
+#30adea,2255,Phthalo Blue (Green Shade) 1 to 10
+#004EAC,2420,Primary Cyan
+#006abd,2420,Primary Cyan 10 to 1
+#0089d8,2420,Primary Cyan 3 to 1
+#47a5e7,2420,Primary Cyan 1 to 1
+#74bcf9,2420,Primary Cyan 1 to 3
+#9ed5ff,2420,Primary Cyan 1 to 10
+#00BCC1,2369,Teal
+#00cfda,2369,Teal 10 to 1
+#00dce8,2369,Teal 3 to 1
+#73e2e9,2369,Teal 1 to 1
+#92ecef,2369,Teal 1 to 3
+#aeeeed,2369,Teal 1 to 10
+#006677,2144,Cobalt Turquois
+#00859d,2144,Cobalt Turquois 10 to 1
+#0091a7,2144,Cobalt Turquois 3 to 1
+#62b8cc,2144,Cobalt Turquois 1 to 1
+#90d4db,2144,Cobalt Turquois 1 to 3
+#c5f3f7,2144,Cobalt Turquois 1 to 10
+#002239,2390,Turquois (Phthalo)
+#00465e,2390,Turquois (Phthalo) 10 to 1
+#005d76,2390,Turquois (Phthalo) 3 to 1
+#0090ac,2390,Turquois (Phthalo) 1 to 1
+#3abbc9,2390,Turquois (Phthalo) 1 to 3
+#6ed7d8,2390,Turquois (Phthalo) 1 to 10
+#002932,2270,Phthalo Green (Blue Shade)
+#006561,2270,Phthalo Green (Blue Shade) 10 to 1
+#008073,2270,Phthalo Green (Blue Shade) 3 to 1
+#3ea091,2270,Phthalo Green (Blue Shade) 1 to 1
+#5bbbac,2270,Phthalo Green (Blue Shade) 1 to 3
+#78d7c7,2270,Phthalo Green (Blue Shade) 1 to 10
+#004D48,2443,Viridian Green Hue
+#008176,2443,Viridian Green Hue 10 to 1
+#039c93,2443,Viridian Green Hue 3 to 1
+#48b6b1,2443,Viridian Green Hue 1 to 1
+#79cccc,2443,Viridian Green Hue 1 to 3
+#b2eae8,2443,Viridian Green Hue 1 to 10
+#00382F,2275,Phthalo Green (Yellow Shade)
+#007751,2275,Phthalo Green (Yellow Shade) 10 to 1
+#009f6c,2275,Phthalo Green (Yellow Shade) 3 to 1
+#3cc798,2275,Phthalo Green (Yellow Shade) 1 to 1
+#7fd8b3,2275,Phthalo Green (Yellow Shade) 1 to 3
+#9bf4ce,2275,Phthalo Green (Yellow Shade) 1 to 10
+#0D2100,2195,Jenkins Green
+#445240,2195,Jenkins Green 10 to 1
+#6b805c,2195,Jenkins Green 3 to 1
+#8fa589,2195,Jenkins Green 1 to 1
+#aabda7,2195,Jenkins Green 1 to 3
+#c4d0be,2195,Jenkins Green 1 to 10
+#242D14,2440,Sap Green Hue
+#313a20,2440,Sap Green Hue 10 to 1
+#414a2f,2440,Sap Green Hue 3 to 1
+#525b3f,2440,Sap Green Hue 1 to 1
+#636944,2440,Sap Green Hue 1 to 3
+#909468,2440,Sap Green Hue 1 to 10
+#007740,2250,Permanent Green Light
+#009352,2250,Permanent Green Light 10 to 1
+#00af69,2250,Permanent Green Light 3 to 1
+#3bd091,2250,Permanent Green Light 1 to 1
+#73f6b9,2250,Permanent Green Light 1 to 3
+#c9ffe2,2250,Permanent Green Light 1 to 10
+#3C6B3B,2060,Chromium Oxide Green
+#528250,2060,Chromium Oxide Green 10 to 1
+#5f8f5c,2060,Chromium Oxide Green 3 to 1
+#6c9c69,2060,Chromium Oxide Green 1 to 1
+#86b882,2060,Chromium Oxide Green 1 to 3
+#aee1aa,2060,Chromium Oxide Green 1 to 10
+#667400,2170,Green Gold
+#8e961d,2170,Green Gold 10 to 1
+#acb221,2170,Green Gold 3 to 1
+#d0c54d,2170,Green Gold 1 to 1
+#e0d76e,2170,Green Gold 1 to 3
+#f8f29f,2170,Green Gold 1 to 10
+#DFC07B,2438,Naples Yellow Hue
+#e3c688,2438,Naples Yellow Hue 10 to 1
+#eed8a9,2438,Naples Yellow Hue 3 to 1
+#e7cc91,2438,Naples Yellow Hue 1 to 1
+#f2ddb6,2438,Naples Yellow Hue 1 to 3
+#fff2d7,2438,Naples Yellow Hue 1 to 10
+#C5A045,2410,Yellow Oxide
+#c39e47,2410,Yellow Oxide 10 to 1
+#d4b157,2410,Yellow Oxide 3 to 1
+#e9c57a,2410,Yellow Oxide 1 to 1
+#f3dea5,2410,Yellow Oxide 1 to 3
+#fff1d3,2410,Yellow Oxide 1 to 10
+#B78B38,2407,Yellow Ochre
+#c89d62,2407,Yellow Ochre 10 to 1
+#d7ad71,2407,Yellow Ochre 3 to 1
+#e1c28d,2407,Yellow Ochre 1 to 1
+#eed6ae,2407,Yellow Ochre 1 to 3
+#fbe8c4,2407,Yellow Ochre 1 to 10
+#A77846,2340,Raw Sienna
+#b6844f,2340,Raw Sienna 10 to 1
+#d09f6b,2340,Raw Sienna 3 to 1
+#e4bd8c,2340,Raw Sienna 1 to 1
+#f4e3c5,2340,Raw Sienna 1 to 3
+#feefd0,2340,Raw Sienna 1 to 10
+#7A4029,2020,Burnt Sienna
+#825248,2020,Burnt Sienna 10 to 1
+#98655a,2020,Burnt Sienna 3 to 1
+#b38378,2020,Burnt Sienna 1 to 1
+#c99f95,2020,Burnt Sienna 1 to 3
+#dfc0b8,2020,Burnt Sienna 1 to 10
+#90463A,2360,Red Oxide
+#954b43,2360,Red Oxide 10 to 1
+#9e5651,2360,Red Oxide 3 to 1
+#af6d6b,2360,Red Oxide 1 to 1
+#cf9494,2360,Red Oxide 1 to 3
+#dcadae,2360,Red Oxide 1 to 10
+#6B3F3E,2405,Violet Oxide
+#774c48,2405,Violet Oxide 10 to 1
+#8d6564,2405,Violet Oxide 3 to 1
+#a58383,2405,Violet Oxide 1 to 1
+#c6aaaa,2405,Violet Oxide 1 to 3
+#e1c9cd,2405,Violet Oxide 1 to 10
+#624B44,2035,Burnt Umber Light
+#7e5a57,2035,Burnt Umber Light 10 to 1
+#987770,2035,Burnt Umber Light 3 to 1
+#baa498,2035,Burnt Umber Light 1 to 1
+#d6bfb7,2035,Burnt Umber Light 1 to 3
+#e5d4ce,2035,Burnt Umber Light 1 to 10
+#4A433E,2350,Raw Umber
+#59514a,2350,Raw Umber 10 to 1
+#71665e,2350,Raw Umber 3 to 1
+#968c84,2350,Raw Umber 1 to 1
+#b4a9a0,2350,Raw Umber 1 to 3
+#d1cbc4,2350,Raw Umber 1 to 10
+#3B3330,2442,Van Dyke Brown Hue
+#4f413d,2442,Van Dyke Brown Hue 10 to 1
+#77645d,2442,Van Dyke Brown Hue 3 to 1
+#958379,2442,Van Dyke Brown Hue 1 to 1
+#b4a299,2442,Van Dyke Brown Hue 1 to 3
+#cec1b9,2442,Van Dyke Brown Hue 1 to 10
+#2C262F,2240,Paynes Gray
+#314865,2240,Paynes Gray 10 to 1
+#49607e,2240,Paynes Gray 3 to 1
+#677e9d,2240,Paynes Gray 1 to 1
+#95a7c3,2240,Paynes Gray 1 to 3
+#c1cddf,2240,Paynes Gray 1 to 10
+#2C2C2b,2010,Bone Black
+#575757,2010,Bone Black 10 to 1
+#727272,2010,Bone Black 3 to 1
+#939393,2010,Bone Black 1 to 1
+#b3b3b3,2010,Bone Black 1 to 3
+#d1d1d1,2010,Bone Black 1 to 10
+#171512,2040,Carbon Black
+#414141,2040,Carbon Black 10 to 1
+#454648,2040,Carbon Black 3 to 1
+#4e5055,2040,Carbon Black 1 to 1
+#60646b,2040,Carbon Black 1 to 3
+#7d828b,2040,Carbon Black 1 to 10
+#E0D4BA,2370,Titan Buff
+#e1d8c0,2370,Titan Buff 10 to 1
+#e5ddc7,2370,Titan Buff 3 to 1
+#eae4d2,2370,Titan Buff 1 to 1
+#f0ecdf,2370,Titan Buff 1 to 3
+#f5f3ea,2370,Titan Buff 1 to 10
+#FEFEFE,2415,Zinc White
+#ffffff,2415,Zinc White 10 to 1
+#ffffff,2415,Zinc White 3 to 1
+#ffffff,2415,Zinc White 1 to 1
+#ffffff,2415,Zinc White 1 to 3
+#ffffff,2415,Zinc White 1 to 10
+#FEFEFE,2380,Titanium White
+#fffff,2380,Titanium White 10 to 1
+#fffff,2380,Titanium White 3 to 1
+#fffff,2380,Titanium White 1 to 1
+#fffff,2380,Titanium White 1 to 3
+#fffff,2380,Titanium White 1 to 10
